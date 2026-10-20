@@ -4,7 +4,13 @@ public partial class FoAblak : Form
     public FoAblak() => InitializeComponent();
     private async void FoAblak_Load(object sender, EventArgs e)
     {
-        var edzesek = await http.GetFromJsonAsync<List<EdzesDto>>("/api/edzesek");
-        edzesekGrid.DataSource = edzesek;
+        try
+        {
+            edzesekGrid.DataSource = await http.GetFromJsonAsync<List<EdzesDto>>("/api/edzesek");
+        }
+        catch (HttpRequestException)
+        {
+            MessageBox.Show("A szerver nem érhető el.", "Hiba", MessageBoxButtons.OK, MessageBoxIcon.Error);
+        }
     }
 }

@@ -12,3 +12,7 @@ Edzések, résztvevők és jelenlét nyilvántartása egy sportegyesületnek.
 ## Fejlesztői környezet
 
 Először a db/edzesnaplo.sql-t futtasd SQLite-tal, utána indítsd a REST-szervert.
+
+## Tesztek
+
+`dotnet test tests` – az edzés-validáció egységtesztjei.

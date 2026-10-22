@@ -16,3 +16,7 @@ Először a db/edzesnaplo.sql-t futtasd SQLite-tal, utána indítsd a REST-szerv
 ## Tesztek
 
 `dotnet test tests` – az edzés-validáció egységtesztjei.
+
+## Tesztek
+
+`dotnet test tests` – az edzés-validáció egységtesztjei.

@@ -26,3 +26,7 @@ Először a db/edzesnaplo.sql-t futtasd SQLite-tal, utána indítsd a REST-szerv
 Az edzesnaplo.db fájlt hetente másold a közös meghajtóra.
 
 Visszaállításhoz állítsd le a szervert, és másold vissza az edzesnaplo.db fájlt.
+
+## Futtatás
+
+Előbb a backendet indítsd el, utána a kliens a böngészőben nyílik meg.

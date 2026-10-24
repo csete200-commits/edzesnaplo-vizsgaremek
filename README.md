@@ -30,3 +30,7 @@ Visszaállításhoz állítsd le a szervert, és másold vissza az edzesnaplo.db
 ## Futtatás
 
 Előbb a backendet indítsd el, utána a kliens a böngészőben nyílik meg.
+
+## Tesztek
+
+A backend tesztjei a tests mappában vannak, minden push előtt futtasd őket.
